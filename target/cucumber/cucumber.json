@@ -1,0 +1,164 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3248591958,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "search user with alphabet",
+        "description": "",
+        "id": "search-user;search-user-with-alphabet",
+        "after": [
+          {
+            "result": {
+              "duration": 125943542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 151055167,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open website immersive dashboard",
+            "match": {
+              "location": "LoginSteps.userOpenWebsiteImmersiveDashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2170567375,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User input username \"admin@alta.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@alta.com",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.userInputUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2053619916,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User input password \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.userInputPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3054075375,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click login button",
+            "match": {
+              "location": "LoginSteps.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3121141958,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User already on dashboard page",
+            "match": {
+              "location": "LoginSteps.userAlreadyOnDashboardPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1563176208,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click user menu",
+            "match": {
+              "location": "AddNewUserSteps.userClickUserMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65709417,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User input search user \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 24
+                }
+              ],
+              "location": "SearchUserSteps.userInputSearchUser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26514000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "system show user related",
+            "match": {
+              "location": "SearchUserSteps.systemShowUserRelated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search user",
+    "description": "",
+    "id": "search-user",
+    "keyword": "Feature",
+    "uri": "features/SearchUser.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SearchUser"
+      }
+    ]
+  }
+]

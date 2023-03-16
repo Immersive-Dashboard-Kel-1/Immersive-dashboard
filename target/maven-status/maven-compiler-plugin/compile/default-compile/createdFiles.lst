@@ -1,0 +1,5 @@
+org/example/pageObject/UserPage.class
+org/example/pageObject/LoginPage.class
+org/example/pageObject/LogPage.class
+org/example/pageObject/ClassPage.class
+org/example/pageObject/MenteePage.class
